@@ -107,23 +107,7 @@
             background: linear-gradient(45deg,#F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4);
          }
 
-         @media screen and (max-width: 768px){
-            .mom{
-            width: 500px;
-            height: 300px;
-         }
-         .Top{
-            font-size: 32px;
-         }
-         .Mid{
-            font-size: 32px;
-         }
-         .Bot{
-            font-size: 32px;
-         }
-               }
-
-               @media screen and (max-width: 375px){
+         @media screen and (max-width: 375px){
             .mom{
             width: 200px;
             height: 100px;
@@ -142,3 +126,21 @@
             left: 125px;
          }
                }
+               
+         @media screen and (max-width: 768px){
+            .mom{
+            width: 500px;
+            height: 300px;
+         }
+         .Top{
+            font-size: 32px;
+         }
+         .Mid{
+            font-size: 32px;
+         }
+         .Bot{
+            font-size: 32px;
+         }
+               }
+
+               
